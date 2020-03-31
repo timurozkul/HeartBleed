@@ -31,7 +31,7 @@ Part 1: Set up
 ================
 
 -- Using pre existing VM --
-1. Download custom Linux VM file (bee-box.zip) from https://sourceforge.net/projects/bwapp/files/bee-box/.  
+1. Download custom Linux VM file (bee-box.zip) from https://sourceforge.net/projects/bwapp/files/bee-box/bee-box_v1.6.7z/download  
 2. On Virtualbox 
 	2.1 Click new
 	2.2 Name VM anything of your choice
