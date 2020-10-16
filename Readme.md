@@ -6,28 +6,28 @@ by Timur Ozkul
 This Heartbleed vulnerability set-up/exploit/bugfix was done for my Msc Cyber Security course in Swansea.
 
 ================
-###Table of Content
+Table of Content
 ================
-###Part 1: Set up
+Part 1: Set up
 -----
 * Disclaimer *
 This instruction is for Virtualbox, other hypervisors may be used but the setup might be slightly different.
 Two ways of setting it up either us pre existing VM (considerably quicker) or or create Ubuntu 12.04 (This ubuntu version comes with TLS 1.1) and then a web server
 ------------------------------------------------------------------------------------
-###Part 2: Exploit
+Part 2: Exploit
 -----
 * Disclaimer *
 These instructions use Kali Linux, other Linux OS may be used but might require additional installations.
 The square brackets [], indicate that it should be replaced with the appropriate input. Used in bash commands.
 I will demonstrate two methods to exploit one with metasploit the other with a python script
 ------------------------------------------------------------------------------------
-###Part 3: Bug Fix
+Part 3: Bug Fix
 -----
 
 ------------------------------------------------------------------------------------
 
 
-###Part 1: Set up
+Part 1: Set up
 ================
 
 -- Using pre existing VM --
@@ -67,7 +67,7 @@ openssl req -new -x509 -days 365 -sha1 -newkey rsa:1024
 
 ------------------------------------------------------------------------------------
 
-###Part 2: Exploit
+Part 2: Exploit
 ================
 
 1. Ping the VM that was created in part 1, using the ip address (to check if it can create a communication)
@@ -93,7 +93,7 @@ openssl req -new -x509 -days 365 -sha1 -newkey rsa:1024
 The exploit can gives different results so doing several heartbeat request is useful
 ------------------------------------------------------------------------------------
 
-###Part 3: Bug Fix
+Part 3: Bug Fix
 ================
 1. sudo apt-get update && sudo apt-get upgrade
 2. sudo apt-get install openssl
